@@ -7,6 +7,6 @@ export default class Precio {
         this.valor = valor;
     }
     getPrecio(){
-        return `${this.valor}`
+        return "$" + new Intl.NumberFormat("en-US").format(this.valor)
     }
 }
