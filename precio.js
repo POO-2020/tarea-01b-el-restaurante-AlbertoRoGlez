@@ -1,7 +1,7 @@
 export default class Precio {
     /**
      * 
-     * @param {number} precio El precio del producto
+     * @param {number} valor El valor del producto
      */
     constructor(valor) {
         this.valor = valor;
